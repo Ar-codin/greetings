@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Kanit", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+body {
+    background: url('bg.jpg');
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark background */
+    background-blend-mode: multiply;
+}
+.s1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.s2 {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 58vh;
+    border-radius: 20px;
+    border: 2px solid black;
+    background: white;
+    width: 35%;
+}
+.s3 {
+    display: flex;
+    background: #ffe4e3;
+    width: auto;
+    height: 10%;
+    align-items: center;
+    border-bottom: 2px solid black;
+    box-sizing: border-box;
+    
+}
+.s3 img {
+    position: absolute;
+    height: 50px;
+ 
+}
+.s4 {
+    border-bottom: 2px solid black;
+    display: flex;
+    width: auto;
+    height: 8%;
+    align-items: center;
+    
+}
+.s4l {
+   
+    border-right: 2px solid black;
+    display: flex;
+    width: 30%;
+    padding: 5px 5px;
+    justify-content: space-evenly;
+}
+.s4r {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: space-between;
+  
+    padding: 5px 5px;
+}
+.s4r h1 {
+   
+    font-size: 25px;
+    padding-left: 10px;
+}
+.s4r div {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    
+}
+
+.s4l img, .s4r img {
+    height: 20px;
+    
+}
+
+.s5 {
+    margin-top: 10px;
+    display: flex;
+    padding: 10px 10px;
+    gap: 10px;
+    justify-content: center;
+    
+}
+.s5l img {
+    height: 130px;
+    width: 130px;
+    border-radius: 5px;
+}
+.s5r {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.s5r h1 {
+    font-size: 20px;
+    color: #fcc5c8;
+}
+.s5r h3 {
+    font-size: 17px;
+}
+.s5r h6 {
+    font-size: 17px;
+    color: #afafaf;
+}
+.s6 {
+    display: flex;
+    padding: 0px 15px 10px;
+}
+.s61 {
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 60%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.s6l {
+    color: white;
+    display: flex;
+    background: #fec7c7;
+    width: 17%;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    padding: 2px;
+    gap: 10px;
+}
+.s6l img {
+    height: 20px;
+}
+.s61 h1 {
+    font-size: 15px;
+    
+}
+.s6one {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.s7 {
+    display: flex;
+    border-top: 2px solid black;
+    height: 15%;
+}
+.s7l {
+    width: 30%;
+    border-right: 2px solid black;
+}
+.s7r {
+    width: 70%;
+    background: #ffe4e3;
+}
+.s7l, .s7r {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    
+   
+}
+.s7l1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 100%;
+}
+.s7r1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px 0px;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 100%;
+}
+.s7l1 h1, .s7r1 h1 {
+    font-size: 17px;
+}
+.s7l1 img, .s7r1 img {
+    height: 20px;
+}
+
+@media (max-width: 560px) {
+    .s2 {
+        width: 80%;
+        height: 57vh;
+    }
+    .s3 {
+        height: 10%;
+    }
+    .s4 {
+        height: 8%;
+    }
+    .s4l {
+        width: 40%;
+    }
+    .s4r h1 {
+        font-size: 20px;
+    }
+    .s5 {
+        height: 20px;
+       
+    }
+    .s5l img {
+        height: 150px;
+        width: 130px;
+        border-radius: 5px;
+    }
+    .s5r h3 {
+        font-size: 12px;
+    }
+    .s5r h6 {
+        font-size: 11px;
+        color: #afafaf;
+    }
+    .s6 {
+        margin-top: 130px;
+        height: 25%;
+    }
+    .s61 h1 {
+        font-size: 10px;
+    }
+    .s6l {
+        gap: 2px;
+    }
+    .s7 {
+        height: 10%;
+    }
+    .s7l1 h1, .s7r1 h1 {
+        font-size: 13px;
+    }
+    .s7l1 {
+    
+        gap: 2px;
+        
+    }
+    .s7r1 {
+      
+        gap: 2px;
+      
+    }
+}
